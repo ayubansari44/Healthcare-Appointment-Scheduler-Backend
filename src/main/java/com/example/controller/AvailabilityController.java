@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/availabilities")
+@CrossOrigin(origins = "http://localhost:3000")
 public class AvailabilityController {
 
     @Autowired
