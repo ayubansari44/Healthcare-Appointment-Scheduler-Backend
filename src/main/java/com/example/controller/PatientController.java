@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/patients")
-@CrossOrigin(origins = "http://localhost:3000") // Replace with your React app's URL
+@CrossOrigin(origins = "http://localhost:3000")
 public class PatientController {
 
     @Autowired
